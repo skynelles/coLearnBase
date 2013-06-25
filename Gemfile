@@ -17,10 +17,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-group :development, :test do
+group :test do
   gem "rspec-rails", "~> 2.13.2"
   gem "factory_girl_rails", "~> 4.2.1"
-
+  gem "shoulda-matchers", "~> 2.2.0"
   gem 'jazz_hands'
 end
 
