@@ -24,6 +24,9 @@ group :development, :test do
   gem 'jazz_hands'
 end
 
+group :development do
+  gem 'better_errors'
+end
 
 
 # To use ActiveModel has_secure_password
