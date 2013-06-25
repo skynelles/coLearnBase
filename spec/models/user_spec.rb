@@ -10,5 +10,6 @@ describe User do
 
   it { should have_many :enrollments }
   it { should have_many(:courses).through(:enrollments) }
-
+  it { should have_many :tagships }
+  it { should have_many(:tags).through(:tagships) }
 end
