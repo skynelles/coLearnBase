@@ -20,6 +20,8 @@ end
 group :development, :test do
   gem "rspec-rails", "~> 2.13.2"
   gem "factory_girl_rails", "~> 4.2.1"
+
+  gem 'jazz_hands'
 end
 
 
