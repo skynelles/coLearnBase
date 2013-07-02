@@ -13,4 +13,6 @@ class User < ActiveRecord::Base
   has_many :courses, through: :enrollments
   has_many :tagships
   has_many :tags, through: :tagships
+
+  belongs_to :user_type
 end
